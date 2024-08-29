@@ -1,0 +1,13 @@
+.navbar
+{
+    background-color: #008F8C;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show,.nav-link,.navbar-brand {
+    color: #fff;
+    font-family: "Matemasie", sans-serif;
+
+}
+.navbar-brand{
+font-family: "Matemasie", sans-serif;
+font-size: 35px;
+}

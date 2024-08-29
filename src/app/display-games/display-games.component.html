@@ -1,0 +1,19 @@
+
+<div class="container mt-3 pt-3 ">
+<div class="row" >
+   
+   
+    <div class="col-md-4" *ngFor="let game of Games; trackBy:trackByGameId">
+           <a [routerLink]="'/games/'+game.id"> <div class="item text-center rounded shadow-sm">
+            <img [src]="game.thumbnail"  [alt]="game.title">
+            <h4 class="f-main">{{game.title}}</h4>
+            <div class="p-div f-main">
+                <p>{{game.short_description}}</p>
+            </div>
+        </div>
+    </a>
+    </div>
+
+</div>
+</div>
+<router-outlet/>
